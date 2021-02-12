@@ -1,0 +1,532 @@
+body,h1,h2, .filter h2,h3,h4,h5,h6, p, ul{
+  margin: 0;
+  padding:0;
+}
+
+body {
+  background-color:#fdf3ea;
+  font-family:'Raleway', sans-serif;
+  color:#010e19;
+}
+
+img{
+  max-width: 100%;
+}
+
+a{
+  text-decoration:none;
+}
+
+h1{
+  font-size:2rem;
+  font-weight: 800;
+}
+
+h2, nav ul li, .button, .categories article p{
+  font-weight: 700;
+}
+
+h2, .categories article p{
+  font-size: 1.5rem;
+}
+
+h2{
+  margin-bottom: 60px;
+}
+
+h3, .button2, .price, .blocside p, .advantage{
+  font-size: 1.2rem;
+}
+
+ul{
+  list-style:none;
+}
+
+.button2, .price{
+  font-weight: 600;
+}
+
+.font-blue{
+  color:#010e19;
+}
+
+.font-white{
+  color:white;
+}
+
+.bg-blue{
+  background-color: #010e19;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.text-center{
+  text-align:center;
+}
+
+.d-flex{
+  display:flex;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.justify-end{
+  justify-content: flex-end;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.pos-rel{
+  position: relative;
+}
+
+.pos-abs{
+  position: absolute;
+}
+
+.container{
+  padding:0 50px;
+}
+
+.width100{
+  width:100%;
+}
+
+/*NAV PRINCIPALE*/
+
+nav .logo img{
+  width:110px;
+}
+
+nav ul img{
+  width:25px;
+}
+
+
+nav ul li{
+  font-size:1rem;
+}
+
+nav #nav1 li{
+  margin:0 5px;
+}
+
+nav #nav1 a:hover{
+  border-bottom:2px solid #010e19;
+  padding-bottom: 10px;
+}
+
+nav #icons li{
+  margin:0 10px;
+}
+
+nav #nav1, .col{
+  margin-left: 50px;
+}
+
+#menu-responsive, #img-responsive{
+  display:none;
+}
+
+nav #icons, .col:last-child{
+  margin-right: 50px;
+}
+
+nav #icons a:hover/*, .categories article*/{
+  opacity: 0.5;
+}
+
+nav #icons a:hover{
+  transition: 0.2s;
+}
+
+nav ul, .categories{
+  flex:1;
+}
+
+nav, #back-to-top{
+  position: fixed;
+}
+
+nav {
+  padding:1px 0;
+  z-index: 10;
+}
+
+/*FOOTER*/
+
+.footer-col h3, header p{
+  margin-bottom: 40px;
+}
+
+.footer-col{
+  margin-bottom:100px;
+  margin-top: 80px;
+  width:33%;
+}
+
+.footer-col li{
+  margin-bottom: 20px;
+}
+
+footer a:hover{
+  color : rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+}
+
+#network li{
+  margin-right: 30px;
+}
+
+#newsletter p{
+  margin-bottom: 15px;
+}
+
+#email, #submit{
+  background-color: rgba(255, 255, 255, 0);
+  padding: 5px;
+}
+
+#email{
+  border:none;
+  border-bottom: 1px solid white;
+  margin-right: 10px;
+}
+
+#submit{
+  border: 1px solid white;
+  border-radius:3px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#submit:hover{
+  background-color: rgba(255, 255, 255, 1);
+  color:#010e19;
+  transition: 0.5s;
+}
+
+#payment p, #payment li{
+  margin-right: 20px;
+}
+
+#payment li{
+  font-size: 1.6rem;
+}
+
+/*HEADER*/
+
+header h1{
+  margin-bottom:7px;
+}
+
+header, .blocside img, .blocside p, .blocside h3{
+  margin-bottom:50px;
+}
+
+header{
+  align-items:flex-end;
+  background-image:url('../images/headerchat.jpeg');
+  background-position:25% 75%;
+  background-size:cover;
+  height:670px;
+}
+
+#header-content{
+  padding: 0 50px 100px 0;
+}
+
+.btnheader, .products h2{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btnheader{
+  width:75%;
+}
+
+.button{
+  border-radius:3px;
+  display:block;
+  font-size:0.9rem;
+  padding:10px 30px;
+  text-transform:uppercase;
+}
+
+.btnheader .button:hover{
+  color: white;
+  transition:300ms;
+}
+
+/*ANIMATION SWEEP TO RIGHT*/
+.sweep-to-right{
+  transform: translateZ(0);
+  transition: color 1000ms;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: color 1000ms;
+}
+.sweep-to-right:before{
+  background: #010e19;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transform-origin: 0 50%;
+  transform-origin: 0 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition: 300ms ease-out;
+  transition: 300ms ease-out;
+  z-index: -1;
+}
+.sweep-to-right:hover:before{
+  transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+}
+
+/*MAIN*/
+
+main{
+  margin-top:50px;
+}
+
+/*SECTIONS*/
+
+section{
+  margin-bottom:140px;
+}
+
+/*CATÉGORIES*/
+
+.categories article{
+  margin-right:2%;
+}
+
+.categories article:hover{
+  transform: scale(1.02);
+  transition: 0.5s;
+
+}
+
+.categories article:last-child{
+  margin-right:0%;
+}
+
+.filter{
+  background-color: rgba(0,0,0,.3);
+  height: 98.5%;
+}
+
+
+/*SECTION PRODUITS*/
+
+.products h2{
+  border-bottom: 1px solid #010e19;
+  letter-spacing:0.4rem;
+  padding-bottom:12px;
+  width:25%;
+}
+
+.col .button{
+  font-size:0.6rem;
+}
+
+.button2{
+  border:1px solid #010e19;
+  display: block;
+  padding: 10px 0;
+  }
+
+.button2:hover{
+  color:white;
+  transition:300ms;
+}
+
+
+
+.reco p{
+  font-size: 0.8rem;
+  padding-bottom: 15px;
+}
+
+.price{
+  text-align:right;
+}
+
+.reco h3{
+  margin-bottom:2px;
+}
+
+.overlay{
+  height:100%;
+  opacity:0;
+}
+
+.hiddenbtn, #logobas img{
+  width:50%;
+}
+
+.hiddenbtn{
+  bottom: 152px;
+  margin-left:25%;
+}
+
+.hiddenbtn .button{
+  background-color:rgba(1, 14, 25,0.6);
+}
+
+.hiddenbtn .button:hover{
+  background-color:rgba(1, 14, 25,1)
+}
+
+.iconfav{
+  color:pink;
+  font-size: 1.8rem;
+  right: 12px;
+  top: 12px;
+}
+
+.pulse .iconfav:hover{
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
+}
+
+/*ANIMATION PULSE*/
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.info{
+  padding:2px 15px 0px 15px;
+}
+
+/*BANDEAU PROMO*/
+
+.promo{
+  background: linear-gradient(90deg, transparent 40%, white 40%);
+}
+
+.img-promo{
+  padding: 50px 0;
+  width:45%;
+}
+
+.blocside img{
+  width:15%;
+}
+
+.blocside p, .blocside h3{
+  margin-bottom:30px;
+}
+
+#txtspa{
+  margin-bottom:60px;
+}
+
+.blocside .button{
+  border:1px solid transparent;
+  display:inline;
+}
+
+.blocside .button:hover{
+  background-color: white;
+  border-color:#010e19;
+  color:#010e19;
+  transition: 300ms;
+}
+
+.blocside{
+  padding-bottom:170px;
+  padding-top:170px;
+  width:55%;
+}
+
+/*AVANTAGES ENTREPRISE*/
+
+.advantage{
+  margin-bottom: 0;
+  padding: 50px ;
+}
+
+.single-advantage img{
+  margin-bottom: 10px;
+  width: 40%;
+}
+
+.single-advantage{
+  width:18%;
+}
+
+#logobas{
+  width:28%;
+}
+
+/*ANCRE HAUT DE PAGE*/
+#back-to-top{
+  bottom:40px;
+  right:40px;
+  width:4%;
+}
+
+#back-to-top:hover{
+  animation:bounce 0.7s infinite;
+}
+
+/*ANIMATION BOUNCE*/
+@keyframes bounce {
+  0%, 100%{
+    transform: translateY(-7%);
+    animation-timing-function: cubic-bezier(.8,0,1,1);
+  }
+  50% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0,0,.2,1);
+  }
+}
+
+/*ANIMATION OREILLES*/
+#back-to-top:hover #leftear{
+  animation:movingleftear 0.7s  infinite;
+  transform-origin: 50% 40%;
+}
+
+@keyframes movingleftear {
+
+  42%{transform: rotateZ(2deg);}
+
+  0%, 100%{transform: rotateZ(0deg);}
+}
+
+#back-to-top:hover #rightear{
+  animation: movingrightear 0.7s infinite;
+  transform-origin: 50% 40%;
+}
+
+@keyframes movingrightear{
+
+  42%{transform: rotateZ(-2deg);}
+
+  0%, 100%{transform: rotateZ(0deg);}
+}
+
+/*ANIMATION YEUX*/
+#back-to-top:hover #lefteye, #back-to-top:hover #righteye{
+  animation: blinkeye 2.1s infinite;
+  transform-origin: 0% 30%;
+}
+
+@keyframes blinkeye{
+	42% {transform: rotateX(0deg);}
+	48% {transform: rotateX(90deg);}
+	54% {transform: rotateX(0deg);}
+}

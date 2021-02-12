@@ -1,0 +1,318 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+
+    h1, #network{
+      font-size: 1.85rem;
+    }
+
+    .container{
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    /*NAV PRINCIPALE*/
+
+    nav{
+      justify-content: space-evenly;
+    }
+
+    #nav1, #icons{
+      display: none;
+    }
+
+    #menu-responsive, .small img, #img-responsive{
+      display:block;
+    }
+
+    #menu-responsive{
+      flex:1;
+      font-size:1.8rem;
+      padding-left: 15px;
+    }
+
+    .logo{
+      flex:2;
+    }
+
+    /*FOOTER*/
+
+    .footer-col, #payment{
+      margin-top: 50px;
+    }
+
+    #network{
+      justify-content: space-evenly;
+    }
+
+    footer p{
+      font-size: 0.9rem;
+    }
+
+    /*HEADER*/
+
+    #header-content, .img-promo, .block-footer, .footer-col{
+      width: 100%;
+    }
+
+    #header-content{
+      padding:0 0 100px 0;
+    }
+
+    /*SECTIONS*/
+
+    section{
+      margin-bottom: 70px;
+    }
+
+    /*CATÉGORIES*/
+
+    .categories article{
+      margin-bottom: 2%;
+      margin-right:0;
+    }
+
+    .categories article:last-child{
+      margin-bottom:0;
+    }
+
+    .filter{
+      height:97.5%;
+    }
+
+    .promo{
+      background:none;
+    }
+
+    .categories, .promo, .menu-footer, .row{
+      flex-direction: column;
+    }
+
+    .big, .col:last-child, #network li{
+      margin-right: 0;
+    }
+
+    #img-pc, #logobas, #back-to-top{
+      display:none;
+    }
+
+    .big, .small article, .blocside img{
+      margin-bottom:0px;
+    }
+
+    .small, .col{
+      margin-left: 0;
+    }
+
+    /*SECTION PRODUITS*/
+
+    .products h2, .blocside{
+      width:auto;
+    }
+
+    .col{
+      margin-bottom: 40px;
+    }
+
+    /*BANDEAU PROMO*/
+
+    .promo{
+      align-items: center;
+    }
+
+    .img-promo img{
+      opacity:0.5;
+    }
+
+    .img-promo{
+      margin-top: -15px;
+      padding:0;
+      position: relative;
+    }
+
+    .blocside p, .advantage{
+      font-size: 1rem;
+    }
+
+    .blocside h3, .blocside p{
+      margin-bottom:10px;
+    }
+
+    .blocside p{
+      font-weight: 500;
+    }
+
+    .blocside{
+      padding-top: 5px;
+      position: absolute;
+    }
+
+    #txtspa, .footer-col{
+      margin-bottom:20px;
+    }
+
+    /*AVANTAGES ENTREPRISE*/
+
+    .advantage{
+      display: flex;
+      flex-wrap: wrap;
+      padding:10px;
+    }
+
+    .advantage .single-advantage img{
+      width:40%;
+    }
+
+    .advantage .single-advantage{
+      width:50%;
+
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 1000px) and (orientation : landscape){
+
+
+  /*NAVIGATION PRINCIPALE*/
+
+  #nav1, #img-pc, #back-to-top{
+    display: none;
+  }
+
+  #menu-responsive{
+    display: block;
+    flex:1;
+    font-size:1.8rem;
+    padding-left: 15px;
+  }
+
+  /*FOOTER*/
+
+  .footer-col p, .footer-col li{
+    font-size: 0.8rem;
+  }
+
+  .footer-col{
+    margin-bottom: 50px;
+  }
+
+  .block-footer, .products h2{
+    width:auto;
+  }
+
+  #network{
+    justify-content: space-between;
+  }
+
+  #network li{
+    margin: 0;
+  }
+
+  /*SECTIONS*/
+
+  section{
+    margin-bottom: 70px;
+  }
+
+  /*CATÉGORIES*/
+
+  .categories article{
+    margin-bottom: 2%;
+    margin-right:0;
+  }
+
+  .categories article:last-child{
+    margin-bottom:0;
+  }
+
+  .filter{
+    height:98.5%;
+  }
+
+  .categories{
+    flex-direction: column;
+  }
+
+  .big, .col:last-child{
+    margin-right: 0;
+  }
+
+  .small img, #img-responsive{
+    display:block;
+  }
+
+  .big, .small article{
+    margin-bottom:0px;
+  }
+
+  .small, .col{
+    margin-left: 0;
+  }
+
+  /*SECTION PRODUITS*/
+
+  .row, .menu-footer{
+    flex-direction: row;
+  }
+
+  .row{
+    flex-wrap: wrap;
+  }
+
+  .col{
+    width:48%;
+  }
+
+  .col:nth-child(odd){
+    margin-bottom: 2%;
+    margin-right: 2%;
+  }
+
+  /*BANDEAU PROMO*/
+
+  .promo{
+    flex-direction:row;
+    background: linear-gradient(90deg, transparent 40%, white 40%);
+  }
+
+  .img-promo, .blocside{
+    position:static;
+  }
+
+  .img-promo{
+    width:45%;
+  }
+
+  .img-promo img{
+    opacity:1;
+  }
+
+  .blocside img{
+    margin-bottom: 5px;
+  }
+
+  .blocside h3, .blocside p, #newsletter input{
+    margin-bottom: 10px;
+  }
+
+  .blocside p{
+    font-size: 1rem;
+  }
+
+  .blocside{
+    padding-bottom:35px;
+    padding-top:35px;
+  }
+
+  #txtspa{
+    margin-bottom: 30px;
+  }
+
+  /*AVANTAGES ENTREPRISE*/
+
+  .advantage{
+    padding: 20px 15px;
+  }
+
+  .single-advantage p {
+    font-size: 0.9rem;
+  }
+}
